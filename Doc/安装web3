@@ -1,0 +1,22 @@
+sudo apt install npm
+
+sudo apt install git
+
+
+https://nodejs.org/en/下载到/home/ubuntu/node-v8.1.0-linux-x64/bin/node（这个可以随意）
+
+sudo ln /home/ubuntu/node-v8.1.0-linux-x64/bin/node /usr/local/bin/node
+sudo ln /home/ubuntu/node-v8.1.0-linux-x64/bin/npm /usr/local/bin/npm
+
+
+sudo npm install web3
+
+
+sudo npm install -g ethereumjs-testrpc
+
+sudo npm start
+
+
+****Node.js Cannot find module 'xxx' 的解决方法：npm install -g 'xxx' 
+
+

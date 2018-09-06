@@ -1,0 +1,14 @@
+1 remix 本地化
+基于浏览器在线开发工具的好处是无需安装，自动升级。但是同时也带来很多缺点 1:受限于网络的原因，如果网络状况不好，影响开发速度 2:开发效率低基于这些原因，所以我们需要对remix 进行本地化，本地化步骤
+1: 需要有node 的执行环境，安装，安装node.js
+2: 
+2: 因为下载一些载一些node.js 低包， 低包，我们需要下载cnpm 淘宝镜像npm install -g cnpm --registry=ry=https://registry.npm.taobao.org
+3: 
+3: 下载remix 本地化需要的文件npm install remix-ide -g
+
+这里改为cnpm install remix-ide,会下载到当前文件夹下面的node_modules/remix-ide
+
+4: 启动remix，会在本地起一个端口，默认8080remix-ide
+sudo ~/BlockChain/node_modules/remix-ide/bin/remix-ide
+
+5：用浏览器访问127.0.0.1:8080即可
