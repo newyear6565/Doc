@@ -18,5 +18,5 @@ sudo npm start
 
 
 ****Node.js Cannot find module 'xxx' 的解决方法：npm install -g 'xxx' 
-
+失败则可以 npm update  然后npm install --unsafe-perm -g "XXX"
 
