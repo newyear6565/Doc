@@ -15,8 +15,16 @@ export GOROOT=$HOME/go
 
 export PATH=$GOROOT/bin:$PAT
 
+GOROOT解压的位置
 
-找不到godoc
+GOPATH 工作区目录
+
+GOBIN install的目录
+
+PATH  命令目录
+
+
+找不到godoc(直接下载的不需要这个)
 
 sudo apt install golang-golang-x-tools
 
