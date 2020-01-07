@@ -53,3 +53,10 @@ package main
 执行go run helloWorld.go, 应该会打印出：
 
 或者go build helloWorld.go，将生成helloWorld.sh，./helloWorld也可以运行。
+
+
+### 配置代理
+启用 Go Modules 功能
+export GO111MODULE=on
+配置 GOPROXY 环境变量
+export GOPROXY=https://goproxy.io
